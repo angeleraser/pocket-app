@@ -1,0 +1,195 @@
+/* MEDIA QUERYS  */
+/* Desktop  */
+@media screen and (min-width:720px) {
+
+  .--normal-size {
+    height: 40px;
+    width: 40px;
+  }
+
+  /* Shared  */
+  .flex-main-container {
+    max-width: 1440px;
+  }
+
+  .section {
+    margin: 0;
+  }
+
+  .about-section__title,
+  .follow-us-section__title {
+    margin-top: 0;
+    font-size: var(--xl);
+  }
+
+  .about-section__title::after,
+  .follow-us-section__title::after {
+    width: 55px;
+    height: 55px;
+  }
+
+  /* HEADER  */
+  .main-header {
+    flex-wrap: nowrap;
+    margin-bottom: 162px;
+  }
+
+  .main-header__phone-status-bar-content {
+    display: none;
+  }
+
+  .main-header__banner {
+    justify-content: flex-start;
+    order: 1;
+    flex-basis: 50%;
+  }
+
+  .app-logo {
+    height: 129px;
+    width: 331px;
+    margin: 168px 0 14px;
+  }
+
+  .main-header__banner-description {
+    text-align: left;
+    margin: 0;
+    max-width: 611px;
+    font-size: var(--m);
+  }
+
+  .main-header__banner-buttons-container {
+    justify-content: flex-start;
+    margin: 57px auto 181px;
+  }
+
+  .buttons-container__get-it-button:first-child {
+    margin-right: 39px;
+  }
+
+  .get-it__icon {
+    height: 80px;
+  }
+
+  /* About  */
+
+  .main-content__about {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-section__description {
+    width: 100%;
+    max-width: 720px;
+    margin-bottom: 108px;
+  }
+
+  /* Feature card  */
+  .main-content__feature-cards {
+    justify-content: space-around;
+  }
+
+  .feature-card__description {
+    font-size: var(--s);
+    max-width: 342px;
+  }
+
+  /* Follow us  */
+  .main-content__follow-us {
+    margin: 240px auto 166px;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+  }
+
+  .follow-us-section__data {
+    align-items: flex-start;
+    flex-basis: 50%;
+  }
+
+  .follow-us-section__title {
+    margin: 0;
+    text-align: left;
+  }
+
+  .follow-us-section__description {
+    text-align: left;
+    max-width: 565px;
+    margin: 5px 0 31px;
+  }
+
+  .follow-us-section__image {
+    height: 450.77px;
+    margin: 0;
+    width: 40%;
+  }
+
+  .buttons-container {
+    width: auto;
+    justify-content: flex-start;
+  }
+
+  /* Suscribe  */
+  .suscribe-section__description,
+  .suscribe-section__form {
+    max-width: 565px;
+  }
+
+  .suscribe-section__form {
+    margin-bottom: 87px;
+  }
+
+  .form-content {
+    justify-content: space-between;
+  }
+
+  .suscribe-section__input {
+    width: 100%;
+    max-width: 440px;
+  }
+
+  .suscribe-section__button {
+    font-size: var(--l);
+  }
+
+  /* Footer  */
+  .main-footer {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main-footer .app-logo {
+    width: 193px;
+    margin-left: 100px;
+  }
+
+  .footer-follow-us {
+    text-align: left;
+    margin-bottom: 25px;
+  }
+
+  .footer__buttons-container {
+    justify-content: flex-start;
+    width: auto;
+  }
+
+  .footer-copyright {
+    margin: 0 auto 76px;
+  }
+
+}
+
+@media screen and (min-width:1279px) {
+  .main-content__feature-cards {
+    justify-content: center;
+  }
+
+  .feature-card {
+    margin-bottom: 46px;
+  }
+
+  .feature-card:not(:last-child) {
+    margin-right: 46px;
+  }
+}

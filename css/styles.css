@@ -1,10 +1,14 @@
+body {
+  font-family: 'Asap', sans-serif;
+}
+
 /* Shared Styles */
 .flex-main-container {
   display: flex;
   min-width: 360px;
   flex-wrap: wrap;
   width: 100%;
-  max-width: 375px;
+  max-width: 720px;
   margin: 0 auto;
 }
 
@@ -27,7 +31,7 @@
   text-align: center;
   font-size: var(--l);
   color: #444444;
-  font-weight:var(--bolder);
+  font-weight: var(--bolder);
   margin: 54px auto 47px;
   position: relative;
 }
@@ -45,9 +49,11 @@
   width: 40px;
   z-index: -1;
 }
-.follow-us-section__title::after{
-  left: -10px;
+
+.follow-us-section__title::after {
+  left: -11px;
 }
+
 /* Header */
 .main-header {
   background-color: var(--cardBgColor);
@@ -67,7 +73,9 @@
 
 /* App logo  */
 .app-logo {
-  margin: 98px auto 60px;
+  margin: 68px auto 60px;
+  height: 60px;
+  width: 182px;
 }
 
 /* Banner description  */
@@ -118,16 +126,13 @@
 }
 
 /* Features cards section  */
-.main-content__feature-cards-section {
+.main-content__feature-cards {
   align-items: center;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin: auto 24px;
 }
 
 /* Feature card  */
 .feature-card {
-  align-items: center;
+  align-items:center;
   background-color: var(--cardBgColor);
   border: 1px solid var(--cardBorderColor);
   border-radius: var(--borderRadius);
@@ -135,7 +140,7 @@
   flex-direction: column;
   justify-content: flex-start;
   height: 463px;
-  max-width: 335px;
+  max-width: 375px;
   margin-bottom: 25px;
   width: 100%;
 }
@@ -175,6 +180,10 @@
 }
 
 /* Follow us Section  */
+.follow-us-section__data{
+  flex-direction: column;
+  align-items: center;
+}
 .follow-us-section__title {
   margin: 42px auto 5px;
 }
@@ -187,6 +196,11 @@
   line-height: var(--l_h2);
   max-width: 327px;
   margin-bottom: 55px;
+}
+
+.follow-us-section__image {
+  margin-top: 82px;
+  margin-bottom: 97px;
 }
 
 /* Follow Buttons margin  */
@@ -215,6 +229,7 @@
 .suscribe-section__form {
   width: 100%;
   margin-bottom: 107px;
+  max-width: 450px;
 }
 
 .form-content {
@@ -232,8 +247,8 @@
   border-radius: 6px;
   border: 1px solid #C4C4C4;
   box-shadow: 0px 24px 32px rgba(50, 50, 71, 0.08);
-  border-top-left-radius: var(--borderRadius2);
-  border-bottom-left-radius: var(--borderRadius2);
+  border-top-right-radius: var(--borderRadius2);
+  border-bottom-right-radius: var(--borderRadius2);
   max-width: 348px;
 }
 
