@@ -43,7 +43,7 @@ body {
   background-color: var(--blueCircle);
   display: inline-block;
   height: 40px;
-  left: -8px;
+  left: -10px;
   position: absolute;
   top: -5px;
   width: 40px;
@@ -51,7 +51,7 @@ body {
 }
 
 .follow-us-section__title::after {
-  left: -12px;
+  left: -15px;
 }
 
 /* Header */
