@@ -1,0 +1,78 @@
+/* Variables  */
+:root {
+
+  /* Font Colors  */
+  --black: #000000;
+  --lighterBlack: #424242;
+
+  /* Font Sizes  */
+  --ss: 14px;
+  --s: 16px;
+  --m: 18px;
+  --l: 24px;
+  --xl: 36px;
+
+  /* Line heights */
+  --l_h1: 27px;
+  --l_h2: 32px;
+  --l_h3: 36px;
+
+  /* Font weights  */
+  --bolder: 600;
+
+  /* Backgrounds Colors buttons & cards  */
+  --pinterest: #FF2F59;
+  --twitter: #4CC2FB;
+  --facebook: #4275F8;
+  --instagram: #FFBB35;
+  --lightBlueRadialGradient: radial-gradient(184.18% 184.18% at -11.09% -48.98%, #99D7F5 26.84%, #02A2EF 100%);
+  --cardBgColor: #F8FBFB;
+  --cardBorderColor: rgba(206, 225, 232, 0.5);
+  --blueCircle: #5BC1F2;
+
+  /* Border radius  */
+  --borderRadius:10px;
+  --borderRadius1: 12px;
+  --borderRadius2: 16px;
+}
+
+/* Modifiers */
+.--text-is-white {
+  color: #fff;
+}
+.--text-is-gray{
+  color: #9EA2A4;
+}
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--m);
+  color: #fff;
+  font-weight: var(--bolder);
+  border-radius: var(--borderRadius1);
+  box-shadow: 0px 4px 4px rgba(3, 201, 186, 0.38)
+}
+.--button-is-blue{
+  background-color: var(--blueCircle);
+}
+.--normal-size{
+  height:59px;
+  width: 59px;
+}
+.--small-size{
+  height: 40px;
+  width: 40px;
+}
+.--facebook-color{
+  background-color: var(--facebook);
+}
+.--pinterest-color{
+  background-color: var(--pinterest);
+}
+.--instagram-color{
+  background-color: var(--instagram);
+}
+.--twitter-color{
+  background-color: var(--twitter);
+}
