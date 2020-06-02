@@ -33,11 +33,6 @@
     flex-wrap: nowrap;
     margin-bottom: 162px;
   }
-
-  .main-header__phone-status-bar-content {
-    display: none;
-  }
-
   .main-header__banner {
     justify-content: flex-start;
     order: 1;
@@ -79,7 +74,6 @@
   }
 
   .about-section__description {
-    width: 100%;
     max-width: 720px;
     margin-bottom: 108px;
   }
@@ -122,10 +116,10 @@
   .follow-us-section__image {
     height: 450.77px;
     margin: 0;
-    width: 40%;
+    width: 50%;
   }
 
-  .buttons-container {
+  .follow-us-buttons-container {
     width: auto;
     justify-content: flex-start;
   }

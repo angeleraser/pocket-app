@@ -51,7 +51,7 @@
   color: #fff;
   font-weight: var(--bolder);
   border-radius: var(--borderRadius1);
-  box-shadow: 0px 4px 4px rgba(3, 201, 186, 0.38)
+  box-shadow: 0px 4px 4px rgba(3, 201, 186, 0.38);
 }
 .--button-is-blue{
   background-color: var(--blueCircle);

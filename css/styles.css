@@ -43,7 +43,7 @@ body {
   background-color: var(--blueCircle);
   display: inline-block;
   height: 40px;
-  left: -7px;
+  left: -8px;
   position: absolute;
   top: -5px;
   width: 40px;
@@ -51,24 +51,13 @@ body {
 }
 
 .follow-us-section__title::after {
-  left: -11px;
+  left: -12px;
 }
 
 /* Header */
 .main-header {
   background-color: var(--cardBgColor);
   justify-content: center;
-}
-
-/* Status bar  */
-.main-header__phone-status-bar-content {
-  align-items: center;
-  display: flex;
-  font-size: 12px;
-  font-weight: 800;
-  justify-content: space-around;
-  padding: 0 7px;
-  width: 100%;
 }
 
 /* App logo  */
@@ -122,6 +111,7 @@ body {
   font-size: var(--s);
   line-height: var(--l_h2);
   font-weight: var(--bolder);
+  width: 100%;
   margin: auto 0 62px;
 }
 
@@ -132,7 +122,7 @@ body {
 
 /* Feature card  */
 .feature-card {
-  align-items:center;
+  align-items: center;
   background-color: var(--cardBgColor);
   border: 1px solid var(--cardBorderColor);
   border-radius: var(--borderRadius);
@@ -180,10 +170,11 @@ body {
 }
 
 /* Follow us Section  */
-.follow-us-section__data{
+.follow-us-section__data {
   flex-direction: column;
   align-items: center;
 }
+
 .follow-us-section__title {
   margin: 42px auto 5px;
 }
@@ -229,15 +220,22 @@ body {
 .suscribe-section__form {
   width: 100%;
   margin-bottom: 107px;
-  max-width: 450px;
+  max-width: 440px;
+
+}
+
+.main-content__suscribe .button {
+  box-shadow: none;
 }
 
 .form-content {
   display: flex;
   position: relative;
   align-items: center;
-  width: 100%;
-  padding: 0 9px;
+  box-shadow: 0px 24px 32px rgba(50, 50, 71, 0.08);
+  border-top-right-radius: var(--borderRadius2);
+  border-bottom-right-radius: var(--borderRadius2);
+
 }
 
 .suscribe-section__input {
@@ -246,7 +244,6 @@ body {
   font-size: var(--s);
   border-radius: 6px;
   border: 1px solid #C4C4C4;
-  box-shadow: 0px 24px 32px rgba(50, 50, 71, 0.08);
   border-top-right-radius: var(--borderRadius2);
   border-bottom-right-radius: var(--borderRadius2);
   max-width: 348px;
@@ -258,7 +255,7 @@ body {
   height: 68px;
   border-radius: var(--borderRadius2);
   position: absolute;
-  right: 9px;
+  right: 0;
 }
 
 .suscribe-section__description {
