@@ -56,15 +56,20 @@ body {
 
 /* Header */
 .main-header {
-  background-color: var(--cardBgColor);
   justify-content: center;
 }
 
 /* App logo  */
 .app-logo {
-  margin: 68px auto 60px;
-  height: 60px;
-  width: 182px;
+  margin: 68px auto 60px auto;
+  max-width: 182px;
+}
+
+.main-header__banner {
+  background-color: var(--cardBgColor);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Banner description  */
@@ -72,8 +77,10 @@ body {
   font-size: var(--s);
   line-height: var(--l_h1);
   font-weight: 500;
-  margin: 0 34px 58px;
+  margin: 0 auto 49px auto;
   text-align: center;
+  width: 100%;
+  max-width: 307px;
 }
 
 /* Get it buttons  */
@@ -91,19 +98,26 @@ body {
 }
 
 .buttons-container__get-it-button:first-child {
-  margin-right: 6.5%;
+  margin-right: 24px;
 }
 
 /* Banner image  */
 .main-header__banner-image {
-  flex-basis: 50%;
+  width: 100%;
+  max-width: 375px;
 }
 
 /* Main content styles  */
 /* About The App  */
 .main-content__about {
+  display: flex;
+  flex-direction: column;
   align-content: center;
   text-align: center;
+}
+
+.about-section__title {
+  margin: 49px auto 40px auto;
 }
 
 /* Description  */
@@ -112,7 +126,8 @@ body {
   line-height: var(--l_h2);
   font-weight: var(--bolder);
   width: 100%;
-  margin: auto 0 62px;
+  max-width: 328px;
+  margin-bottom: 62px;
 }
 
 /* Features cards section  */
@@ -129,10 +144,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 463px;
-  max-width: 375px;
-  margin-bottom: 25px;
+  height: auto;
+  max-width: 335px;
   width: 100%;
+  padding: 50px 17px;
+}
+
+.feature-card:not(:last-child) {
+  margin-bottom: 25px;
 }
 
 /* Star  */
@@ -140,7 +159,7 @@ body {
   border-radius: 50%;
   background-image: var(--lightBlueRadialGradient);
   display: flex;
-  margin: 50px auto 0;
+  margin-bottom: 50px;
   height: 70px;
   width: 70px;
 }
@@ -155,7 +174,7 @@ body {
   color: #444444;
   font-weight: bold;
   line-height: var(--l_h2);
-  margin: 50px auto 25px;
+  margin-bottom: 25px;
   text-align: center;
 }
 
@@ -165,8 +184,6 @@ body {
   font-weight: var(--bolder);
   line-height: var(--l_h3);
   text-align: center;
-  margin: 0 17px 53px 16px;
-  max-width: 302px;
 }
 
 /* Follow us Section  */
@@ -176,7 +193,7 @@ body {
 }
 
 .follow-us-section__title {
-  margin: 42px auto 5px;
+  margin: 42px auto 5px auto;
 }
 
 .follow-us-section__description {
@@ -190,8 +207,10 @@ body {
 }
 
 .follow-us-section__image {
-  margin-top: 82px;
-  margin-bottom: 97px;
+  margin-top: 60px;
+  margin-bottom: 90px;
+  width: 100%;
+  max-width: 320px;
 }
 
 /* Follow Buttons margin  */
@@ -209,7 +228,8 @@ body {
 }
 
 .suscribe-section__arrow-vector {
-  margin: 69px 49px;
+  max-width: 127px;
+  margin: 47px auto 67px auto;
 }
 
 .suscribe-section__title {
@@ -233,8 +253,7 @@ body {
   position: relative;
   align-items: center;
   box-shadow: 0px 24px 32px rgba(50, 50, 71, 0.08);
-  border-top-right-radius: var(--borderRadius2);
-  border-bottom-right-radius: var(--borderRadius2);
+  border-radius: var(--borderRadius2);
   margin: 0 9px;
 
 }
@@ -247,7 +266,9 @@ body {
   border: 1px solid #C4C4C4;
   border-top-right-radius: var(--borderRadius2);
   border-bottom-right-radius: var(--borderRadius2);
-  max-width: 348px;
+  max-width: 350px;
+  color: rgba(52, 59, 92, 0.3);
+  box-shadow: none;
 }
 
 .suscribe-section__button {
@@ -266,10 +287,17 @@ body {
   line-height: var(--l_h2);
   width: 100%;
   max-width: 341px;
-  margin: 8px auto 59px;
+  margin: 8px auto 59px auto;
 }
 
 /* Footer  */
+.main-footer {
+  width: 100%;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .footer-follow-us {
   width: 100%;
   text-align: center;
