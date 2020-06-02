@@ -1,4 +1,21 @@
 /* MEDIA QUERIES  */
+/* Small Desktop */
+@media screen and (min-width: 1260px) {
+  .main-header {
+    flex-wrap: nowrap;
+    background-color: var(--cardBgColor);
+  }
+
+  .main-header__banner {
+    order: 1;
+    background: none;
+  }
+
+  .main-header__banner-image {
+    max-width: 630px;
+  }
+}
+
 /* Desktop  */
 @media screen and (min-width: 1440px) {
 
@@ -30,18 +47,15 @@
 
   /* HEADER  */
   .main-header {
-    flex-wrap: nowrap;
     margin-bottom: 162px;
     max-width: unset;
-    background-color: var(--cardBgColor);
   }
+
   .main-header__banner {
     justify-content: center;
     align-items: flex-start;
-    order: 1;
     flex-basis: 100%;
     max-width: 611px;
-    background: none;
   }
 
   .app-logo {
@@ -211,17 +225,3 @@
   }
 
 }
-
-/* @media screen and (min-width:1279px) {
-  .main-content__feature-cards {
-    justify-content: center;
-  }
-
-  .feature-card {
-    margin-bottom: 46px;
-  }
-
-  .feature-card:not(:last-child) {
-    margin-right: 46px;
-  }
-} */

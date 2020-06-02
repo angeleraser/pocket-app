@@ -5,10 +5,8 @@ body {
 /* Shared Styles */
 .flex-main-container {
   display: flex;
-  min-width: 360px;
   flex-wrap: wrap;
   width: 100%;
-  max-width: 720px;
   margin: 0 auto;
 }
 
@@ -140,6 +138,8 @@ body {
 /* Features cards section  */
 .main-content__feature-cards {
   align-items: center;
+  max-width: 375px;
+  margin: 0 auto;
 }
 
 /* Feature card  */
