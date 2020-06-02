@@ -101,6 +101,13 @@ body {
   margin-right: 24px;
 }
 
+.play-store img {
+  width: 160px;
+}
+.app-store img {
+  width: 140px;
+}
+
 /* Banner image  */
 .main-header__banner-image {
   width: 100%;
