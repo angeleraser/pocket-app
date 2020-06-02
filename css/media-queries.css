@@ -56,6 +56,7 @@
     align-items: flex-start;
     flex-basis: 100%;
     max-width: 611px;
+    margin-right: 85px;
   }
 
   .app-logo {
@@ -199,7 +200,8 @@
   .main-footer {
     justify-content: space-between;
     align-items: center;
-    max-width: 1440px;
+    max-width: 1480px;
+    padding: 0 40px;
     margin-top: 106px;
     margin-bottom: 76px;
   }
@@ -220,7 +222,9 @@
 
   .footer__buttons-container {
     justify-content: flex-start;
-    width: auto;
+    width: 100%;
+    max-width: 220px;
+    min-width: unset;
   }
 
   .footer-copyright {

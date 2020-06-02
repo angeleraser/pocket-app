@@ -2,6 +2,11 @@ body {
   font-family: 'Asap', sans-serif;
 }
 
+button,
+a {
+  cursor: pointer;
+}
+
 /* Shared Styles */
 .flex-main-container {
   display: flex;
